@@ -17,7 +17,7 @@ function Table(props) {
                     </tr>
                 </thead>
                 <tbody>
-                    { names.map((name)=>  <tr onClick={()=>history.push('/')}  >
+                    { names.map((name)=>  <tr onClick={()=>history.push(`/project/${names.indexOf(name)}`)} key={names.indexOf(name)}  >
                         <td>{names.indexOf(name)}</td>
                         <td>{name }</td>
                          <td> <button className='btn btn-secondary'  >view</button> </td>
