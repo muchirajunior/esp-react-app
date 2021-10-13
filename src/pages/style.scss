@@ -1,0 +1,67 @@
+.home{
+  background-image: url('https://www.simplilearn.com/ice9/free_resources_article_thumb/iot_devices.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px;
+  margin: 0px;
+  margin-top: 0px;
+
+}
+
+
+.home-header{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.home-banner{
+
+    &__text{
+        color: white;
+        font-size: 17px;
+    }
+
+}
+.create-project-button{
+    background-color: white;
+    color: blueviolet;
+    border-radius: 10px;
+    margin-top: 40vh;
+    margin-bottom: 5vh;
+    margin-left: 40%;
+    font-size: 20px;
+    height: 40px;
+    width: 200px;
+}
+
+.view-project-button{
+    background-color: white;
+    color: blueviolet;
+    border-radius: 10px;
+    margin-left: 40%;
+    font-size: 20px;
+    height: 40px;
+    width: 200px;
+}
+
+.create-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-page{
+    background-image: linear-gradient(to top left, rgb(121, 73, 155),rgb(196, 115, 115));
+    min-height: 100vh;
+    padding: 10px;
+
+    &__header{
+        color: white;
+        font-size: 30px;
+        padding: 10px;
+        text-align: center;
+        height: 10vh;
+    }
+}
